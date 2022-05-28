@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    margin-top: 45px;
+    margin-left: 180px;
+    justify-content: space-between;
+    width: 45%;
+    font-size: smaller;
+}
+
+#card1 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1-content {
+    margin: 100px;
+    width: 400px;
+}
+
+.card1-content h1 {
+    font-size: 50px;
+}
+
+.card1-image {
+    width: 40%;
+}
+
+.card1-image img{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+#card1-button {
+    margin-top: 20px;
+    background-color: #a3cb38;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#card1-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#green-graphics {
+    position: absolute;
+    top:0;
+    right: 330px;
+    width: 300px;
+    height: 500px;
+    background-color: #a3cb38;
+    z-index: -1;
+}
+
+
+#card2 {
+    display: flex;  
+}
+
+.card2-image {
+    background: url("./assets/bg.png"); 
+    position: absolute;
+    top: 800;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+}
+
+.card2-first h1 {
+    margin-left: 80px;
+    font-size: 80px;
+}
+
+.card2-content {
+    margin-top: 20px;
+    margin-left: 230px;
+    width: 35%;
+}
+
+.card2-content-part1 h2{
+    color: #a3cb38;
+    font-size: 28px;
+}
+
+.card2-content-part2 h2{
+    color: #a3cb38;
+    font-size: 28px;
+}
+
+.card2-padd {
+    padding: 5px;
+}
+
+.grid-container {
+    margin: 80px;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    /* padding: 10px; */
+}
+
+.grid-item {
+  padding-left:  70px;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.grid-item h3{
+    font-weight: 900;
+    padding: 2px;
+    font-size: 15px;
+    
+}
+
+.grid-item p{
+    font-weight: 900;
+    padding: 2px;
+    font-size: 13px;
+    width: 150px;
+}
+
+.grid-item a{
+    font-size: 15px;
+    padding: 2px;
+    color: green;
+    text-decoration: none;
+}
+
+.part3-image1 {
+        background: url("./assets/recipe.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+.part3-image2 {
+        background: url("./assets/emoji.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+.part3-image3 {
+        background: url("./assets/guess-the-number.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+.part3-image4 {
+        background: url("./assets/rock-paper-scissors.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+.part3-image5 {
+        background: url("./assets/pokemon.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+.part3-image6 {
+        background: url("./assets/e-birthday-card.png");
+        background-size: contain;
+        width: 130px;
+        height: 130px;
+}
+
+.sGraphic {
+    position: relative;
+    top:20px;
+    left: 12px;
+    width: 25px;
+    height: 40px;
+    background-color: #a3cb38;
+    z-index: 2;
+}
+
+.card3-part1 h1 {
+    font-size: 37px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.card3-part1 p {
+    text-align: center;
+    justify-content: center ;
+    width: 100%;
+}
+
+
+
+
+
+#card4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proud {
+    background-color: #a3cb38;
+    width: 400px;
+    height: 350px;
+}
+
+.proud h1 {
+    margin-left: 30px;
+    padding-top: 35px;
+    color: white;
+    font-size: 80px;
+}
+
+.card4-part1 {
+    width: 650px;
+}
+
+.gridC {
+    margin-left: 50px;   
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+.gridI {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.card4-part2 {
+    margin-right: 5px;
+}
+
+.Gline {
+    background-color: #a3cb38;
+    width: 30px;
+    height: 2px;
+    border: inset 1.5px;
+}
+
+#card5 {
+    display: flex;
+    margin: 60px;
+}
+
+.card5-part1{
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+.content5 h1{
+ color: #a3cb38;
+ font-size: 65px;
+}
+
+.content5 {
+ width: 55%;
+}
+
+.grid5 {
+    margin-left: 100px;   
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+#grid5img1{
+    background: url("./assets/guitar.png");
+    background-size: cover;
+    background-position: right;
+    width: 200px;
+    height: 300px;
+    margin-top: 155px;
+    padding: 0px;
+    margin-left: 5px;
+}
+
+#grid5img2 {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+.grid5img2a{
+    background: url("./assets/friends.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 200px;
+    height: 230px;
+}
+.grid5img2b{
+    background: url("./assets/badminton.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 200px;
+    height: 200px;
+}
+#grid5img3{
+    background: url("./assets/painting.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 200px;
+    height: 160px;
+    margin-right: 5px;
+}
+#grid5img4{
+    background: url("./assets/reading.png");
+    background-size: cover;
+    background-position: bottom;
+    width: 200px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    background-color: #a3cb38;
+    width: 350px;
+    height: 200px;
+    padding-left: 55px;
+}
+
+.contact h1{
+    font-size: 45px;
+    padding-top: 70px;
+    color: white;
+}
+
+.contact a{
+    color: white;
+    font-weight: 100;
+}
+
+.footer-part2 {
+    padding-top: 140px;
+    padding-right: 50px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
